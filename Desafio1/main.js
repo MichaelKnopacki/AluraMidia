@@ -1,3 +1,14 @@
+const teclas = document.querySelectorAll('input[type=button]');
+console.log(teclas);
+
+/*
+Ao rodar o console no navegador o retorno era vazio.
+O retorno era vazio, pois o SCRIPT estava antes, assim que coloquei no final do BODY ele retornou os valores corretos.
+*/
+
+//------------------------------------------------------------------------------------------------
+
+
 function alerta (){
     // Resolução Michael
     let telefone = document.getElementById('tel');
@@ -8,6 +19,7 @@ function alerta (){
     //document.querySelector('input[type=tel]');
 }
 
+//------------------------------------------------------------------------------------------------
 /*
 Você já sabe como usar o DevTools para inspecionar elementos HTML. 
 Agora, está trabalhando em um projeto de site musical e precisa interagir com os botões que representam 
@@ -20,6 +32,7 @@ function digito (){
     alert(numero);
 }
 
+//------------------------------------------------------------------------------------------------
 /*
 Imagine que você está trabalhando em um projeto de site que inclui elementos interativos como botões 
 que emitem sons, semelhante a um piano. Até o momento, você já aprendeu como emitir o som utilizando
@@ -30,6 +43,7 @@ function clicado (){
     alert(' Eu o numero 2, fui clicado');
 }
 
+//------------------------------------------------------------------------------------------------
 /*
 Neste exercício, você enfrentará um desafio comum no desenvolvimento web: garantir consistência de 
 design entre diferentes navegadores. Trabalhando com o mesmo projeto do instrumento musical digital, 
