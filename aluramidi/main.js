@@ -27,6 +27,6 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
         // Chama a função 'tocaSom' passando o 'idAudio', que toca o som do instrumento associado.
     };
     
-    //console.log(contador);
+    console.log(contador);
     // Esse console.log (se descomentado) exibiria o valor do contador a cada iteração do loop.
 }
