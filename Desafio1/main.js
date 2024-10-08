@@ -63,10 +63,27 @@ const listaDeTeclas = document.querySelectorAll('input[type=button]');
     
     }
 
-2 ) Ao clicar em qualquer tecla do teclado, imprima o valor no campo Digite seu telefone
+2 ) Ao clicar em qualquer tecla do teclado, imprima o valor 
+
+    * onclick="clicado(event)" -> Inserido a cada elemento dentro do HTML;
+
+    function clicado(event) {
+    console.log(event); // Mostra o objeto de evento no console
+    console.log('Tipo de evento:', event.type); // Mostra o tipo de evento (ex.: "click")
+    console.log('Elemento alvo:', event.target); // Mostra o elemento que acionou o evento
+    console.log('Valor:', event.target.value); // Mostra o elemento que acionou o evento
+    }
+    
+
+3 ) Quando o botão é clicado ele imprime no campo "Digite seu telefone"
+
+    function clicado(event) {
+        const campoTelefone = document.getElementById("tel");
+        campoTelefone.value += event.target.value;
+    }
 
 
-3 ) Final:
+4 ) Final:
 
     // Seleciona todos os elementos de input do tipo botão (teclas) e armazena na variável 'listaDeTeclas'
     const listaDeTeclas = document.querySelectorAll('input[type=button]');
