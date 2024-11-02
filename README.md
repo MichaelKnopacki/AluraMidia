@@ -1,55 +1,98 @@
->>> 1. Conhecendo o JavaScript
+# Projeto de JavaScript para Web: Crie Páginas Dinâmicas
 
-* Clicando no botão:
-Conhecemos a tag audio do HTML e como ela funciona, também como adicionar código JavaScript inline a partir do atributo onclick na tag button, e também como é a função alert() do JavaScript.
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-* Conectar JS com HTML:
-Aprendemos porque devemos ter arquivos dedicados para cada linguagem, e a extensão .js para arquivos com JavaScript, porque chamamos o nosso arquivo principal de JavaScript de main.js, e também, como fazemos para inserir um arquivo .js dentro de uma página HTML com a tag script.
+Curso disponível em: [JavaScript para Web: Crie páginas dinâmicas](https://cursos.alura.com.br/course/javascript-web-paginas-dinamicas)
 
-* Buscar um elemento:
-Aprendemos os tipos de seletores que podemos usar no JavaScript (elemento, classe e id), como utilizar a função querySelector para selecionar os elementos da nossa página HTML. Vimos nesta aula a referência document, que representa o documento HTML dentro do JavaScript, e o que significa o Reference Error e como solucionar, além de entender que o JavaScript é uma linguagem case sensitive, e uso do operador ponto final para entrar dentro de referências como o document, e que o ponto e virgula é opcional porém recomendado.
+---
 
-----------------------------------------------------------------------------------------------------------
->>> 2. Funções
+## Conteúdos do Projeto
 
-* Play no JS:
-Como manipular a tag <audio> do HTML através do JavaScript, como selecionar um elemento a partir de um seletor de id e a reproduzir um som a partir da função play(). Além disso, viu também como os erros são apresentados na aba Console da ferramenta DevTools.
+### 1. Conhecendo o JavaScript
 
-* O que é uma função?:
-O que é uma função, para que servem, como declará-la e sua sintaxe básica. Além disso, viu que a ordem de execução de um código JavaScript importa, desde a inserção da tag script antes do fechamento da tag </body> no HTML até a ordem do código JavaScript dentro do seu próprio arquivo.
+- **Clicando no botão**: 
+  - Exploramos a tag `audio` do HTML e sua funcionalidade.
+  - Vimos como adicionar código JavaScript inline usando o atributo `onclick` na tag `button`.
+  - Usamos a função `alert()` para exibir mensagens.
 
-* Clique no botão:
-A utilizar o onclick como atributo no JavaScript, e como atribuir uma função ao onclick sem que esta função seja invocada imediatamente.
+- **Conectar JS com HTML**: 
+  - Compreendemos a importância de ter arquivos separados para cada linguagem, usando a extensão `.js` para JavaScript.
+  - Aprendemos a inserir um arquivo `.js` em uma página HTML com a tag `script`.
 
-----------------------------------------------------------------------------------------------------------
+- **Buscar um elemento**: 
+  - Aprendemos a utilizar seletores de elemento, classe e ID em JavaScript.
+  - Usamos `querySelector` para selecionar elementos no HTML.
+  - Entendemos o funcionamento de `document`, `ReferenceError`, e a importância de diferenciar maiúsculas e minúsculas (case-sensitive).
 
->>> 3.Listas
+---
 
-* Lista de elementos:
-O que são os comentários de código e como utilizá-los para auxiliar durante a escrita da nossa aplicação. Vimos também uma alternativa ao querySelector quando necessário buscar muitos elementos, que é o querySelectorAll, que retorna uma lista (NodeList) com todos os elementos do seletor informado evitando a repetição de código.
+### 2. Funções
 
-* Referências:
-Para que serve uma referência e como declaramos uma referência de valor constante no código.
+- **Play no JS**:
+  - Manipulamos a tag `<audio>` do HTML usando JavaScript.
+  - Selecionamos um elemento pelo ID e reproduzimos som com a função `play()`.
 
-* Conhecendo listas:
-A estrutura de uma lista em JavaScript e como podemos acessar os elementos a partir dos índices com a sintaxe do colchetes.
+- **O que é uma função?**: 
+  - Aprendemos o conceito, a utilidade, a sintaxe e a ordem de execução das funções em JavaScript.
+  
+- **Clique no botão**:
+  - Usamos `onclick` como um atributo JavaScript e atribuimos funções ao `onclick` sem invocá-las imediatamente.
 
-----------------------------------------------------------------------------------------------------------
+---
 
->>> 4.Iterando em listas
+### 3. Listas
 
-* Percorrendo uma lista:
-Como percorrer uma lista usando a estrutura de repetição while, a criar referências variáveis com let, e como incrementar o valor de uma variável, e criar uma condição para evitar o loop infinito, também conhecemos o atributo length contido nas listas que nos ajudou a obter dinamicamente o valor do tamanho de uma lista.
+- **Lista de elementos**: 
+  - Conhecemos os comentários de código e como utilizá-los.
+  - Exploramos `querySelectorAll`, que retorna uma `NodeList` e evita a repetição de código.
 
-* Função com parâmetros:
-Como declarar e utilizar parâmetros dentro de uma função que criamos, e o que é uma função anônima e o retorno undefined de uma função.
+- **Referências**: 
+  - Definimos referências de valor constante no código e entendemos sua importância.
 
-* Textos dinâmicos:
-Como criar textos dinâmicos utilizando template string e como acessar as classes de um elemento através do atributo classList.
+- **Conhecendo listas**: 
+  - Vimos a estrutura de uma lista em JavaScript e acessamos elementos por índice com colchetes.
 
-* Repetição otimizada com For:
-Como é a estrutura de repetição for e como ela pode nos ajudar com um código mais limpo, além da forma de incrementar um valor de variável com o operador ++.
+---
 
-----------------------------------------------------------------------------------------------------------
+### 4. Iterando em Listas
 
->>> 5.Eventos e lógicas
+- **Percorrendo uma lista**: 
+  - Iteramos uma lista com `while`, criando referências variáveis com `let`.
+  - Usamos `length` para obter dinamicamente o tamanho de uma lista e evitar loops infinitos.
+
+- **Função com parâmetros**: 
+  - Declaramos funções com parâmetros e compreendemos a função anônima e o retorno `undefined`.
+
+- **Textos dinâmicos**: 
+  - Criamos textos dinâmicos usando template strings.
+  - Manipulamos classes de elementos com `classList`.
+
+- **Repetição otimizada com For**: 
+  - Aprendemos a estrutura de repetição `for` e como simplificar nosso código.
+
+---
+
+### 5. Eventos e Lógicas
+
+- **Eventos no teclado**: 
+  - Usamos eventos de teclado `onkeydown` e `onkeyup` e manipulamos classes com `add` e `remove` via `classList`.
+
+- **Condições no código e operadores lógicos**: 
+  - Trabalhamos com o objeto `event` e a estrutura condicional `if`.
+  - Conhecemos os operadores `==`, `===`, e `||`.
+
+- **Mais condições**:
+  - Usamos `if` e `else` juntos, além de explorar operadores como `!=`, `&&` e o valor `null`.
+
+---
+
+## Conecte-se Comigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-MichaelKnopacki-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michaelknopacki/)
+[![GitHub Followers](https://img.shields.io/github/followers/MichaelKnopacki?style=flat-square&logo=github)](https://github.com/MichaelKnopacki)
+
+---
+
+✨ _Este projeto faz parte de um curso completo sobre JavaScript para Web, onde são explorados diversos conceitos para criar páginas dinâmicas e interativas. Espero que este resumo seja útil no seu aprendizado!_
